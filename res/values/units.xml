@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="length_small">
+		<item>mm</item><!-- Metric 0 -->
+		<item>in</item><!-- US 1 -->
+	</string-array>
+	<string-array name="length">
+		<item>m</item><!-- Metric 0 -->
+		<item>ft</item><!-- US 1 -->
+	</string-array>
+	<string-array name="volume_flow">
+		<item>m³/h</item>
+		<item>m³/min</item>
+		<item>m³/s</item><!-- Metric 2 -->
+		<item>Nm³/h</item>
+		<item>Nm³/min</item>
+		<item>Nm³/s</item>
+		<item>l/min</item>
+		<item>l/s</item>
+		<item>cu.ft./hr</item><!-- US 8 -->
+		<item>cu.ft./min</item>
+		<item>cu.ft./s</item>
+		<item>petr.bl./hr</item>
+		<item>petr.bl./day</item>
+		<item>gal/hr</item>
+		<item>gal/min</item>
+		<item>MGD</item>
+	</string-array>
+	<string-array name="mass_flow">
+		<item>kg/h</item>
+		<item>kg/min</item>
+		<item>kg/s</item><!-- Metric 2 -->
+		<item>lb./hr</item><!-- US 3 -->
+		<item>lb./min</item>
+		<item>lb./s</item>
+		<item>oz./min</item>
+		<item>oz./s</item>
+	</string-array>
+	<string-array name="density">
+		<item>kg/m³</item><!-- Metric 0 -->
+		<item>kg/l</item>
+		<item>g/l</item>
+		<item>gr./cu.ft.</item>
+		<item>gr./gal.</item>
+		<item>oz./cu.ft.</item><!-- US 5 -->
+		<item>oz./cu.in.</item>
+		<item>oz./gal.</item>
+		<item>lb./cu.ft.</item>
+		<item>lb./cu.in.</item>
+		<item>lb./gal.</item>
+	</string-array>
+	<string-array name="dynamic_viscosity">
+		<item>10^-6 kg/ms</item><!-- Metric 0 -->
+		<item>10^-6 g/ms</item>
+		<item>10^-6 g/cms</item>
+		<item>10^-6 Pa s</item>
+		<item>mPa s</item>
+		<item>10^-6 Ns/m²</item>
+		<item>cP</item>
+		<item>lb.av./ft.hr</item><!-- US 7 -->
+		<item>lb.av./ft.s</item>
+	</string-array>
+	<string-array name="kinematic_viscosity">
+		<item>10^-6 m²/s</item><!-- Metric 0 -->
+		<item>cm²/s</item>
+		<item>mm²/s</item>
+		<item>cSt</item>
+		<item>sq.ft./hr</item><!-- US 4 -->
+		<item>sq.ft./s</item>
+	</string-array>
+</resources>

@@ -1,0 +1,188 @@
+<LinearLayout android:id="@+id/calculator_measures"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<LinearLayout android:padding="10dip"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<LinearLayout android:padding="5dip"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<LinearLayout android:padding="0dip"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="fill_parent" android:textSize="18dip"
+						android:text="@string/input_units" android:gravity="center_vertical"
+						android:layout_weight="1" />
+					<Spinner android:id="@+id/input_units" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textSize="18dip"
+						android:prompt="@string/input_units" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout android:padding="5dip"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:textSize="19dip"
+					android:text="@string/diameter" />
+				<LinearLayout android:padding="0dip"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<EditText android:id="@+id/diameter_value"
+						android:layout_width="wrap_content" android:layout_height="fill_parent"
+						android:textSize="18dip" android:layout_weight="1"
+						android:hint="@string/value_prompt" android:inputType="numberDecimal" />
+					<Spinner android:id="@+id/diameter_unit"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:textSize="18dip" android:prompt="@string/unit_prompt" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout android:padding="5dip"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:textSize="19dip"
+					android:text="@string/length" />
+				<LinearLayout android:padding="0dip"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<EditText android:id="@+id/length_value"
+						android:layout_width="wrap_content" android:layout_height="fill_parent"
+						android:textSize="18dip" android:layout_weight="1"
+						android:hint="@string/value_prompt" android:inputType="numberDecimal" />
+					<Spinner android:id="@+id/length_unit"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:textSize="18dip" android:prompt="@string/unit_prompt" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout android:padding="5dip"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:textSize="19dip"
+					android:text="@string/roughness" />
+				<LinearLayout android:padding="0dip"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<EditText android:id="@+id/roughness_value"
+						android:layout_width="wrap_content" android:layout_height="fill_parent"
+						android:textSize="18dip" android:layout_weight="1"
+						android:hint="@string/value_prompt" android:inputType="numberDecimal" />
+					<Spinner android:id="@+id/roughness_unit"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:textSize="18dip" android:prompt="@string/unit_prompt" />
+				</LinearLayout>
+				<Spinner android:id="@+id/roughness_hint"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:textSize="18dip" android:prompt="@string/roughness_prompt" />
+			</LinearLayout>
+
+			<LinearLayout android:paddingRight="5dip"
+				android:paddingLeft="5dip" android:paddingBottom="5dip"
+				android:paddingTop="25dip" android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="fill_parent" android:textSize="19dip"
+					android:text="@string/medium" android:gravity="center_vertical"
+					android:paddingRight="10dip" />
+				<EditText android:id="@+id/flow_medium"
+					android:layout_width="wrap_content" android:layout_height="fill_parent"
+					android:textSize="18dip" android:layout_weight="1"
+					android:text="@string/medium_default" />
+			</LinearLayout>
+
+			<LinearLayout android:padding="5dip"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<Spinner android:id="@+id/flow_type" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:textSize="18dip"
+					android:prompt="@string/flow" />
+				<LinearLayout android:padding="0dip"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<EditText android:id="@+id/flow_value"
+						android:layout_width="wrap_content" android:layout_height="fill_parent"
+						android:textSize="18dip" android:layout_weight="1"
+						android:hint="@string/value_prompt" android:inputType="numberDecimal" />
+					<Spinner android:id="@+id/flow_unit" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textSize="18dip"
+						android:prompt="@string/unit_prompt" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout android:padding="5dip"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:textSize="19dip"
+					android:text="@string/weight_density" />
+				<LinearLayout android:padding="0dip"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<EditText android:id="@+id/density_value"
+						android:layout_width="wrap_content" android:layout_height="fill_parent"
+						android:textSize="18dip" android:layout_weight="1"
+						android:hint="@string/value_prompt" android:text="@string/weight_density_default"
+						android:inputType="numberDecimal" />
+					<Spinner android:id="@+id/density_unit"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:textSize="18dip" android:prompt="@string/unit_prompt" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout android:padding="5dip"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<Spinner android:id="@+id/viscosity_type"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:textSize="18dip" android:prompt="@string/viscosity" />
+				<LinearLayout android:padding="0dip"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<EditText android:id="@+id/viscosity_value"
+						android:layout_width="wrap_content" android:layout_height="fill_parent"
+						android:textSize="18dip" android:layout_weight="1"
+						android:hint="@string/value_prompt" android:inputType="numberDecimal"
+						android:text="@string/viscosity_default" />
+					<Spinner android:id="@+id/viscosity_unit"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:textSize="18dip" android:prompt="@string/unit_prompt" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout android:padding="5dip"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<LinearLayout android:padding="0dip"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="fill_parent" android:textSize="18dip"
+						android:text="@string/units" android:gravity="center_vertical"
+						android:layout_weight="1" />
+					<Spinner android:id="@+id/units" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textSize="18dip"
+						android:prompt="@string/unit_prompt" />
+				</LinearLayout>
+				<LinearLayout android:padding="0dip"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<Button android:id="@+id/clear" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textSize="18dip"
+						android:text="@string/clear" android:layout_weight="1" />
+					<Button android:id="@+id/calculate" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textSize="18dip"
+						android:text="@string/calculate" android:layout_weight="2" />
+				</LinearLayout>
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

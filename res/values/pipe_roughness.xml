@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="pipe_roughness">
+		<item>Find roughness</item>
+		<item>Aluminium,drawn/pressed,new,0.0013-0.0015mm</item>
+		<item>Aluminium,drawn/pressed,used,to 0.03mm</item>
+		<item>Asbestos-cement,new,smooth,0.03-0.1mm</item>
+		<item>Brass,drawn/pressed,new,0.0013-0.0014mm</item>
+		<item>Brass,drawn/pressed,used,to 0.03mm</item>
+		<item>Cast iron,average city severage,1.2mm</item>
+		<item>Cast iron,incrusted,to 3.0mm</item>
+		<item>Cast iron,new,bituminized,0.10-0.13mm</item>
+		<item>Cast iron,new,with skin,0.2-0.6mm</item>
+		<item>Cast iron,operating several years,cleaned,1.5mm</item>
+		<item>Cast iron,slightly rusty,1.0-1.5mm</item>
+		<item>Clay,new,clay tile,9.0mm</item>
+		<item>Clay,Drainage-pipe,new,calcined,0.7mm</item>
+		<item>Concrete,new,medium rough,1.0-2.0mm</item>
+		<item>Concrete,new,rough,2.0-3.0mm</item>
+		<item>Concrete,new,smooth,0.3-0.8mm</item>
+		<item>Concrete,operating several years,0.2-0.3mm</item>
+		<item>Concrete,Centrifugal-,new,smooth plastered,0.1-0.15mm</item>
+		<item>Concrete,Centrifugal-,new,without plaster,0.2-0.8mm</item>
+		<item>Concrete,Steel-,new,smooth,01.-0.15mm</item>
+		<item>Copper,drawn/pressed,new,0.0013-0.0015mm</item>
+		<item>Copper,drawn/pressed,used,to 0.03mm</item>
+		<item>Glass,drawn/pressed,new,0.0013-0.0015mm</item>
+		<item>Glass,drawn/pressed,used,to 0.03mm</item>
+		<item>Plastic,drawn/pressed,new,0.0013-0.0015mm</item>
+		<item>Plastic,drawn/pressed,used,to 0.03mm</item>
+		<item>Rubber,new,smoot,0.0016mm</item>
+		<item>Steel,after long operation cleaned,0.15-0.20mm</item>
+		<item>Steel,homogeneous corrosion pits,0.15mm</item>
+		<item>Steel,intensely incrusted,2.0-4.0mm</item>
+		<item>Steel,slightly rusty and incrusted,0.15-0.40mm</item>
+		<item>Steel,longitudinal welded,new,bituminized,0.01-0.05mm</item>
+		<item>Steel,longitudinal welded,new,galvanized,0.008mm</item>
+		<item>Steel,longitudinal welded,new,rolling skin,0.04-0.1mm</item>
+		<item>Steel,weldless,new,comm.size galvanized,0.10-0.16mm</item>
+		<item>Steel,weldless,new,neatly galvanized,0.07-0.10mm</item>
+		<item>Steel,weldless,new,pickled,0.03-0.04mm</item>
+		<item>Steel,weldless,new,rolling skin,0.02-0.06mm</item>
+		<item>Steel,weldless,new,unpickled,0.03-0.06mm</item>
+		<item>Stoneware,0.25mm</item>
+		<item>Wood,after long operating,0.1mm</item>
+		<item>Wood,new,0.2-1.0mm</item>
+	</string-array>
+	<string-array name="pipe_roughness_values">
+		<item></item>
+		<item>0.0014</item>
+		<item>0.015</item>
+		<item>0.065</item>
+		<item>0.00125</item>
+		<item>0.015</item>
+		<item>1.2</item>
+		<item>1.5</item>
+		<item>0.115</item>
+		<item>0.45</item>
+		<item>1.5</item>
+		<item>1.25</item>
+		<item>9.0</item>
+		<item>0.7</item>
+		<item>1.5</item>
+		<item>2.5</item>
+		<item>0.55</item>
+		<item>0.25</item>
+		<item>0.125</item>
+		<item>0.5</item>
+		<item>0.125</item>
+		<item>0.0014</item>
+		<item>0.015</item>
+		<item>0.0014</item>
+		<item>0.015</item>
+		<item>0.0014</item>
+		<item>0.015</item>
+		<item>0.0016</item>
+		<item>0.175</item>
+		<item>0.15</item>
+		<item>3.0</item>
+		<item>0.275</item>
+		<item>0.03</item>
+		<item>0.008</item>
+		<item>0.07</item>
+		<item>0.13</item>
+		<item>0.085</item>
+		<item>0.035</item>
+		<item>0.045</item>
+		<item>0.045</item>
+		<item>0.25</item>
+		<item>0.1</item>
+		<item>0.6</item>
+	</string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/clear" android:icon="@drawable/refresh"
+		android:title="@string/clear" />
+	<item android:id="@+id/go" android:icon="@drawable/flash"
+		android:title="@string/calculate" />
+	<item android:id="@+id/info" android:icon="@drawable/info"
+		android:title="@string/info" />
+</menu>

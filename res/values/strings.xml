@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Pressure Drop Calculator</string>
+	<string name="version">v</string>
+	<string name="error">Error</string>
+	<string name="ok">Ok</string>
+	<string name="done">Done</string>
+	<string name="not_valid">is not valid</string>
+	<string name="unit_prompt">Select unit</string>
+	<string name="value_prompt">Insert Value</string>
+	<string name="roughness_prompt">Roughness</string>
+	<string name="diameter">Diameter of pipe</string>
+	<string name="length">Length of pipe</string>
+	<string name="roughness">Pipe roughness</string>
+	<string name="medium">Flow medium</string>
+	<string name="medium_default">Water at 20 °C</string>
+	<string name="volume_flow">Volume flow</string>
+	<string name="flow">Flow</string>
+	<string name="mass_flow">Mass flow</string>
+	<string name="weight_density">Weight density</string>
+	<string name="weight_density_default">998.2071</string>
+	<string name="viscosity">Viscosity</string>
+	<string name="viscosity_default">1001.61</string>
+	<string name="dynamic_viscosity">Dynamic viscosity</string>
+	<string name="kinematin_viscosity">Kinematic viscosity</string>
+	<string name="units">Output values</string>
+	<string name="units_metrical">Metrical</string>
+	<string name="units_us">US</string>
+	<string name="input_units">Input units </string>
+	<string name="clear">Reset</string>
+	<string name="info">About</string>
+	<string name="calculate">Calculate</string>
+	<string name="result">Presure Drop</string>
+	<string name="reynolds">Reynolds number</string>
+	<string name="friction">Friction factor</string>
+	<string name="velocity">Velocity</string>
+	<string name="m_per_s">m/s</string>
+	<string name="bar">bar</string>
+	<string name="psi">psi</string>
+	<string name="email">Email</string>
+	<string name="sms">sms</string>
+	<string name="sms_error">This device cannot send SMS messages</string>
+</resources>
